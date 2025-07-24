@@ -45,9 +45,11 @@ Repeating messages
 Best for fixed number of repetitions.
 
 '''
+
 for (initialization; condition; update) {
    // code to repeat
 }
+
 '''
 
 #### 2. While Loop
