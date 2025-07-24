@@ -3,9 +3,9 @@
 ## Aim
 To understand and implement looping statements in C++:
 
-     for loop
+for loop
 
-    while loop
+while loop
 
 ## Objectives
 Use loops to repeat a block of code.
@@ -112,13 +112,42 @@ String and integer manipulation
 ### Sample Output
 #### To print even number from 1 to 10 using For loop
 '''
-
+0
+2
+4
+6
+8
+10
 '''
 #### To print "SIT" 5 times uding For Loop
 '''
+SIT
+SIT
+SIT
+SIT
+SIT
 '''
 #### Password Verification using While Loop
 '''
+---- PASSWORD SETUP ----
+NOTE: The password should consists of uppercase,lowercase,number and symbol.
+Set your password: mi@16
+Weak password! Please follow the rules.
+
+Set your password: Mi@14 
+Password accepted.
+---- PASSWORD VERIFICATION ----
+
+You will get 3 chances to re-enter your password for our verification!
+Re-enter your password: gahk
+
+You have 2 chances left
+Re-enter your password: haj8=
+
+You have 1 chances left
+Re-enter your password: Mi@14
+
+Passwod verification successful!
 '''
 #### Reverse the number using While Loop
 '''
