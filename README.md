@@ -1,4 +1,4 @@
-# CPP_Experiment_4_Looping_Statements
+# CPP_Experiment_4: Desicion Making statements
 
 ## Aim
 To understand and implement looping statements in C++:
@@ -44,23 +44,21 @@ Repeating messages
 
 Best for fixed number of repetitions.
 
-'''
-
+```
 for (initialization; condition; update) {
    // code to repeat
 }
-
-'''
+```
 
 #### 2. While Loop
 
 Used when the number of repetitions is not fixed.
 
-'''
+```
 while (condition) {
    // code to repeat
 }
-'''
+```
 
 ### Difference between For Loop and While Loop
 | Feature           | `for` Loop                                | `while` Loop                               |
@@ -126,39 +124,28 @@ String and integer manipulation
 
 #### To print even number from 1 to 10 using For loop
 
-'''
+```
 0
-
 2
-
 4
-
 6
-
 8
-
 10
-
-'''
+```
 
 #### To print "SIT" 5 times uding For Loop
 
-'''
+```
 SIT
-
 SIT
-
 SIT
-
 SIT
-
 SIT
-
-'''
+```
 
 #### Password Verification using While Loop
 
-'''
+```
 ---- PASSWORD SETUP ----
 
 NOTE: The password should consists of uppercase,lowercase,number and symbol.
@@ -179,9 +166,9 @@ You have 1 chances left
 Re-enter your password: Mi@14
 
 Passwod verification successful!
-'''
+```
 #### Reverse the number using While Loop
-'''
+```
 Enter a number: 9073363
 Reversed number: 3633709
-'''
+```
