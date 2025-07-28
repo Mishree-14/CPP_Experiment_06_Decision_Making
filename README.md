@@ -108,6 +108,92 @@ Then we build the reversed number by multiplying previous value by 10 and adding
 
 Loop continues until the number becomes 0.
 
+### 5. Pattern Printing
+
+#### List of Patterns Implemented:
+
+##### Right-angled Triangle:
+
+Prints stars in increasing order row-wise.
+ 
+##### Inverted Right-angled Triangle:
+
+Stars decrease with each row.
+
+##### Mirrored Right-angled Triangle:
+
+Similar to right-angled triangle but shifted to the right using spaces.
+
+##### Equilateral Triangle:
+
+Center-aligned triangle with spaces and *.
+
+##### Inverted Equilateral Triangle:
+
+Upside-down version of an equilateral triangle.
+
+##### Equilateral Triangle (Continuous Stars):
+
+Uses 2*i+1 formula to print continuous stars like a pyramid.
+
+##### Diamond Pattern:
+
+Combines two equilateral triangles (one upright and one inverted).
+
+##### Hourglass Pattern:
+
+Similar to diamond but without full symmetry, gives hourglass appearance.
+
+##### Number Triangle:
+
+Prints increasing numbers row by row in triangle form.
+  
+##### Number Pyramid:
+
+Same number repeated per row (like row number).
+
+##### Number Triangle (Mirrored):
+
+Creates a triangle where each row starts with row number and increases.
+
+##### Alphabet Pyramid (Continuous):
+
+Prints increasing alphabets continuously using ASCII values.
+
+##### Alphabet Pyramid (Same Letter in Row):
+
+Each row has the same alphabet (based on row number).
+ 
+##### Half Diamond Pattern:
+
+Right-angled triangle followed by inverted one — like a vertical diamond cut in half.
+
+##### Half Diamond (Mirrored):
+
+Similar to Half Diamond, but mirrored using spaces to align center.
+
+### Important Theory Concepts:
+
+#### Nested Loops:
+
+Used for row and column control. Outer loop controls rows, inner loop controls columns/spaces.
+
+##### ASCII Values for Characters:
+Alphabets are printed using ASCII values:
+
+'A' = 65
+
+printf("%c", 65); prints A.
+
+##### Spacing:
+Spaces (" ") are important to align patterns correctly (especially for mirrored or centered shapes).
+
+##### Pattern Formulae:
+
+Stars in equilateral: 2*i - 1 or 2*i + 1
+
+Mirroring: Print (n - i) spaces before printing stars/numbers
+
 ## Concepts Used
 
 Looping (for, while)
@@ -172,3 +258,115 @@ Passwod verification successful!
 Enter a number: 9073363
 Reversed number: 3633709
 ```
+
+#### Pattern Output
+'''
+Enter number of rows you want to print: 5
+
+*
+**
+***
+****
+*****
+
+*****
+****
+***
+**
+*
+
+    *
+   **
+  ***
+ ****
+*****
+
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+
+     *
+    ***
+   *****
+  *******
+ *********
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+
+1	
+2	3	
+4	5	6	
+7	8	9	10	
+11	12	13	14	15	
+
+1	
+2	2	
+3	3	3	
+4	4	4	4	
+5	5	5	5	5	
+
+    1
+   23
+  345
+ 4567
+56789
+
+A
+BC
+DEF
+GHIJ
+KLMNO
+
+A
+BB
+CCC
+DDDD
+EEEEE
+
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+    *
+   **
+  ***
+ ****
+*****
+ ****
+  ***
+   **
+    *
+
+'''
