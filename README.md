@@ -114,63 +114,63 @@ Loop continues until the number becomes 0.
 
 ##### Right-angled Triangle:
 
-Prints stars in increasing order row-wise.
+> Prints stars in increasing order row-wise.
  
 ##### Inverted Right-angled Triangle:
 
-Stars decrease with each row.
+> Stars decrease with each row.
 
 ##### Mirrored Right-angled Triangle:
 
-Similar to right-angled triangle but shifted to the right using spaces.
+> Similar to right-angled triangle but shifted to the right using spaces.
 
 ##### Equilateral Triangle:
 
-Center-aligned triangle with spaces and *.
+> Center-aligned triangle with spaces and *.
 
 ##### Inverted Equilateral Triangle:
 
-Upside-down version of an equilateral triangle.
+> Upside-down version of an equilateral triangle.
 
 ##### Equilateral Triangle (Continuous Stars):
 
-Uses 2*i+1 formula to print continuous stars like a pyramid.
+> Uses 2*i+1 formula to print continuous stars like a pyramid.
 
 ##### Diamond Pattern:
 
-Combines two equilateral triangles (one upright and one inverted).
+> Combines two equilateral triangles (one upright and one inverted).
 
 ##### Hourglass Pattern:
 
-Similar to diamond but without full symmetry, gives hourglass appearance.
+> Similar to diamond but without full symmetry, gives hourglass appearance.
 
 ##### Number Triangle:
 
-Prints increasing numbers row by row in triangle form.
+> Prints increasing numbers row by row in triangle form.
   
 ##### Number Pyramid:
 
-Same number repeated per row (like row number).
+> Same number repeated per row (like row number).
 
 ##### Number Triangle (Mirrored):
 
-Creates a triangle where each row starts with row number and increases.
+> Creates a triangle where each row starts with row number and increases.
 
 ##### Alphabet Pyramid (Continuous):
 
-Prints increasing alphabets continuously using ASCII values.
+> Prints increasing alphabets continuously using ASCII values.
 
 ##### Alphabet Pyramid (Same Letter in Row):
 
-Each row has the same alphabet (based on row number).
+> Each row has the same alphabet (based on row number).
  
 ##### Half Diamond Pattern:
 
-Right-angled triangle followed by inverted one — like a vertical diamond cut in half.
+> Right-angled triangle followed by inverted one — like a vertical diamond cut in half.
 
 ##### Half Diamond (Mirrored):
 
-Similar to Half Diamond, but mirrored using spaces to align center.
+> Similar to Half Diamond, but mirrored using spaces to align center.
 
 ### Important Theory Concepts:
 
