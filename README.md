@@ -260,7 +260,7 @@ Reversed number: 3633709
 ```
 
 #### Pattern Output
-'''
+```
 Enter number of rows you want to print: 5
 
 *
@@ -369,4 +369,4 @@ EEEEE
    **
     *
 
-'''
+```
